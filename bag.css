@@ -1,0 +1,500 @@
+.head-adidas {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+}
+  
+.header-right ul li,
+.header-center ul li {
+  display: inline;
+} 
+  
+.bars {
+  display: none;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.bars a {
+  color: black;
+}
+  
+.adidas-logo img {
+  padding: 20px 0;
+  cursor: pointer;
+  background-color: white;
+  width: 65px;
+}
+  
+.header-right ul,
+.header-center ul {
+  margin-top: 37px;
+}
+
+.header-center ul li {
+  margin: 20px;
+}
+  
+.header-center a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+  
+.header-right ul li {
+  margin: 8px;
+}
+  
+.header-right a {
+  color: rgb(100, 100, 100);
+  font-size: 14px;
+}
+  
+.header-right a:hover,
+.header-center a:hover {
+  color: black;
+}
+  
+.div-adidas-word1 {
+  border-top: 2px solid rgb(236, 234, 234);
+}
+
+.sec-grid-com,
+.bag-art-grid,
+.div-adidas-word1 h1,
+.div-adidas-word1 ul {
+  margin: 30px 100px 30px 100px;
+}
+
+.div-adidas-word1 ul li {
+  display: inline;
+  border-right: 1px solid rgb(182, 181, 181);
+  margin: 5px;
+  padding-right: 10px;
+
+}
+
+.div-adidas-word1 ul li:last-child {
+  border-right: none;
+}
+
+.div-adidas-word1 a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.div-adidas-word1 a:hover {
+  color: black;
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s; 
+}
+
+@keyframes example {
+  0%   {color:black; left:0px; top:-1px;}
+  25%  {color: black; left:0px; top:-2px;}
+  50%  {color:black; left:0px; top:-3px;}
+  75%  {color:black; left:0px; top:-4px;}
+  100% {color: black; left:0px; top:-5px;}
+}
+
+.div-adidas-word1 h1 {
+  color: rgb(100, 100, 100);
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.bag-art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.sec-word1,
+.sec-left {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.sec-left img {
+  width: 100%;
+}
+
+.sec-left-word {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sec-left-word p:hover,
+.sec-left-word h1:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.sec-left-word h2 {
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+  font-size: 22px;
+}
+
+.sec-left-word h3 {
+  color: rgb(182, 181, 181);
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.sec-left-word p {
+  font-weight: 900;
+}
+
+.sec-word1 {
+  margin-top: 15%;
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sec-word1 button {
+  background-color: white;
+  color: rgb(100, 100, 100);
+  border: 1px solid rgb(182, 181, 181);
+  width: 20vh;
+  margin: 5px 0 0 0;
+  padding: 5px 0;
+}
+
+.sec-word1 button i {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.but-size button:hover {
+  color: white;
+  background-color: black;
+}
+
+.sec-left-word span {
+  margin-left: 80px;
+}
+
+.sec-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 0 50px 0 0;
+}
+
+.sec-grid p {
+  color: rgb(182, 181, 181);
+  font-size: 13px;
+}
+
+.pro-com {
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 100px 0 0 100px;
+}
+
+.categ-col {
+  position: relative;
+}
+
+.categ-col span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.categ-col img {
+  width: 100%;
+}
+
+.categ-col h5 {
+  color: rgb(161, 161, 161);
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.div-need h4,
+.categ-col h4 {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.sec-grid-com {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sec-right {
+  border: 2px solid rgb(182, 181, 181);
+  height: 60%;
+  padding: 20px 40px;
+  line-height: 35px;
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+}
+
+.sec-right span {
+  float: right;
+  margin-top: -35px;
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+}
+
+.sec-right h2 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.div-need h4,
+.sec-right h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.categ-col h4:hover,
+.categ-col p:hover,
+.categ-col i:hover,
+.pro-com:hover,
+.div-need h4:hover,
+.sec-right span:hover,
+.sec-right p:hover,
+.sec-right h4:hover,
+.sec-right h2:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.but-img {
+  width: 48%;
+  border: 1px solid rgb(161, 161, 161);
+  margin: 20px 0;
+  padding: 5px 0;
+  background-color: white;
+}
+
+.but-img img {
+  width: 70px;
+}
+
+.check {
+  width: 48%;
+  border: 1px solid rgb(161, 161, 161);
+  padding: 9px 0;
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+}
+
+.check:hover {
+  color: black;
+  background-color: white;
+}
+
+.div-need p a {
+  color: rgb(100, 100, 100);
+  line-height: 25px;
+}
+
+.div-need p a:hover {
+  text-decoration: none;
+}
+
+.foot {
+  border-top: 2px solid rgb(236, 234, 234);
+  border-bottom: 2px solid rgb(236, 234, 234);
+  padding: 30px 100px;
+}
+
+.foot-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-top ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.foot-top p {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+}
+
+.foot-top p:hover {
+  color: rgb(136, 233, 240);
+  transform: scale(1.2, 1.2);
+}
+
+.foot-top ul li a i {
+  color: rgb(100, 100, 100);
+  font-size: 18px;
+}
+
+.fa-instagram:hover {
+  color: rgb(238, 85, 58);
+  transform: scale(2, 2);
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+  transform: scale(2, 2);
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+  transform: scale(2, 2);
+}
+
+.fa-youtube:hover {
+  color: #e62117;
+  transform: scale(2, 2);
+  /* font-size: 20px; */
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.end p {
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product-grid,
+  .div-adidas-word1 h1,
+  .div-adidas-word1 ul {
+    margin: 30px 50px;
+  }
+  
+  .sec-grid-com, 
+  .bag-art-grid,
+  .div-adidas-word1 h1,
+  .div-adidas-word1 ul {
+    margin: 20px 50px;
+  }
+
+  .bag-art-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}  
+
+@media only screen and (max-width: 425px) {
+  .header-center,
+  .div-adidas-word p,
+  .category-top,
+  .div-adidas-word1 h1 {
+    display: none;
+  }
+
+  .header-right ul li:nth-child(3),
+  .header-right ul li:nth-child(2),
+  .category-top ul:last-child {
+    display: none;
+  } 
+
+  .bars {
+    display: inline;
+    color: black;
+  }
+
+  .adidas-logo img {
+    width: 60px;
+    margin-left: 20px;
+  }
+
+  .header-right a {
+    color: black;
+    font-size: 16px;
+  }
+
+  .div-adidas-word1 ul li a {
+    font-size: 12px;
+  }
+
+  .sec-grid-com,
+  .bag-art-grid,
+  .div-adidas-word1 h1,
+  .div-adidas-word1 ul {
+    margin: 20px 20px;
+  }
+
+  .sec-left {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .bag-art-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sec-left-word h1 {
+    font-size: 18px;
+  }
+
+  .check,
+  .but-img {
+    width: 47%;
+  }
+
+  .sec-grid-com {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pro-com {
+    margin: 70px 0 0 20px;
+  }
+
+  .sec-grid {
+    margin: 0;
+  }
+
+  .categ-col h5 {
+    font-size: 10px;
+  }
+
+  .foot-top p,
+  .categ-col h4 {
+    font-size: 13px;
+  }
+
+  .foot {
+    padding: 20px 20px;
+  }
+
+  .end p:last-child {
+    display: none;
+  }
+
+  .end {
+    margin: 20px;
+  }
+  
+  .end p {
+    font-size: 12px;
+  }
+}  
