@@ -1,0 +1,494 @@
+.head-adidas {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+}
+  
+.header-right ul li,
+.header-center ul li {
+  display: inline;
+} 
+
+.bars {
+  display: none;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.bars a {
+  color: black;
+}
+
+.adidas-logo img {
+  padding: 20px 0;
+  cursor: pointer;
+  background-color: white;
+  width: 65px;
+}
+  
+.header-right ul,
+.header-center ul {
+  margin-top: 37px;
+}
+
+.header-center ul li {
+  margin: 20px;
+}
+  
+.header-center a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+  
+.header-right ul li {
+  margin: 8px;
+}
+  
+.header-right a {
+  color: rgb(100, 100, 100);
+  font-size: 14px;
+}
+  
+.header-right a:hover,
+.header-center a:hover {
+  color: black;
+}
+  
+.div-adidas-word1 {
+  border-top: 2px solid rgb(236, 234, 234);
+}
+
+.product-grid,
+.div-adidas-word1 h1,
+.div-adidas-word1 ul {
+  margin: 30px 100px 30px 100px;
+}
+
+.div-adidas-word1 ul li {
+  display: inline;
+  border-right: 1px solid rgb(182, 181, 181);
+  margin: 5px;
+  padding-right: 10px;
+
+}
+
+.div-adidas-word1 ul li:last-child {
+  border-right: none;
+}
+
+.category-top ul li,
+.div-adidas-word1 a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.div-adidas-word1 a:hover {
+  color: black;
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s; 
+}
+
+@keyframes example {
+  0%   {color:black; left:0px; top:-1px;}
+  25%  {color: black; left:0px; top:-2px;}
+  50%  {color:black; left:0px; top:-3px;}
+  75%  {color:black; left:0px; top:-4px;}
+  100% {color: black; left:0px; top:-5px;}
+}
+
+.div-adidas-word1 h1 {
+  color: rgb(100, 100, 100);
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.sec-grid img,
+.pro-img img,
+.product-photo img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.product-star {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-star ul li {
+  display: inline;  
+  font-size: 12px;
+}
+
+.product-star h2 {
+  font-size: 22px;
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+}
+
+.foot-center h3:hover,
+.categ-col h4:hover,
+.categ-col span:hover,
+.pro-com:hover,
+.sec-grid h2:hover,
+.sec-grid p:hover,
+h5:hover,
+.product-star i:hover,
+.pro-core p:hover,
+.product-star h2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.pro-core {
+  border-bottom: 1px solid rgb(236, 234, 234);
+  margin-bottom: 20px;
+}
+
+.pro-core p {
+  color: rgb(182, 181, 181);
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.sec-grid h2,
+.product-star h4 a,
+.pro-core h4 {
+  font-weight: 900;
+}
+
+.product-star h4 a:hover {
+  color: rgb(161, 159, 159);
+  text-decoration: none;
+}
+
+.sec-grid h2,
+h5 a,
+.product-star h4 a,
+h5,
+.pro-core h5 {
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 20px 0 30px 0;
+}
+
+.pro-img1,
+.pro-img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.pro-img {
+  margin: 40px 0;
+}
+
+.pro-img1 p:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.pro-img1 {
+  margin: 15px 0;
+}
+
+.pro-but p,
+.pro-img1 p {
+  border: 1px solid rgb(236, 234, 234);
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.pro-but {
+  display: grid;
+  grid-template-columns: 4.4fr 1fr;
+  gap: 10px;
+  text-align: center;
+}
+
+.pro-but p:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pro-but p {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.sec-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 20px 50px 0 0;
+}
+
+.sec-grid p {
+  color: rgb(182, 181, 181);
+  font-size: 13px;
+}
+
+.pro-com {
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 50px 0 0 0;
+}
+
+.categ-col {
+  position: relative;
+}
+
+.categ-col span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.categ-col img {
+  width: 100%;
+}
+
+.categ-col h5 {
+  color: rgb(161, 161, 161);
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.categ-col h4 {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.bord-pro {
+  border-right: 1px solid rgb(236, 234, 234);
+}
+
+.foot {
+  border-top: 2px solid rgb(236, 234, 234);
+  border-bottom: 2px solid rgb(236, 234, 234);
+  padding: 50px 100px;
+}
+
+.foot-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-top ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.foot-top p {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+}
+
+.foot-top p:hover {
+  color: rgb(136, 233, 240);
+  transform: scale(1.2, 1.2);
+}
+
+.foot-top ul li a i {
+  color: rgb(100, 100, 100);
+  font-size: 18px;
+}
+
+.fa-instagram:hover {
+  color: rgb(238, 85, 58);
+  transform: scale(2, 2);
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+  transform: scale(2, 2);
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+  transform: scale(2, 2);
+}
+
+.fa-youtube:hover {
+  color: #e62117;
+  transform: scale(2, 2);
+  /* font-size: 20px; */
+}
+
+.foot-center {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.foot-center h3 {
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.foot-center a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.foot-center a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.end p {
+  color: rgb(100, 100, 100);
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product-grid,
+  .div-adidas-word1 h1,
+  .div-adidas-word1 ul {
+    margin: 30px 50px;
+  }
+
+  .sec-grid {
+    margin: 10px 5px;
+  }
+
+  .categ-col h5 {
+    font-size: 8px;
+  }
+
+  .pro-core h5,
+  .categ-col h4 {
+    font-size: 10px;
+  }
+
+  .product-star h2 {
+    font-size: 16px;
+  }
+
+  .product-grid h5 a {
+    font-size: 12px;
+  }
+
+  .foot {
+    padding: 30px 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header-center,
+  .div-adidas-word p,
+  .category-top,
+  .div-adidas-word1 h1 {
+    display: none;
+  }
+
+  .header-right ul li:nth-child(3),
+  .header-right ul li:nth-child(2),
+  .category-top ul:last-child {
+    display: none;
+  } 
+
+  .bars {
+    display: inline;
+    color: black;
+  }
+
+  .adidas-logo img {
+    width: 60px;
+    margin-left: 20px;
+  }
+
+  .header-right a {
+    color: black;
+    font-size: 16px;
+  }
+
+  .div-adidas-word1 ul li a {
+    font-size: 12px;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .product-grid,
+  .div-adidas-word1 h1,
+  .div-adidas-word1 ul {
+    margin: 20px 20px;
+  }
+
+  .foot {
+    padding: 20px;
+  }
+
+  .foot-top ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+  }
+
+  .foot-center h3,
+  .foot-top p {
+    font-size: 12px;
+  }
+  
+  .foot-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -130px;
+  }
+
+  .foot-center ul {
+    display: none;
+  }
+  
+  .end p:last-child {
+    display: none;
+  }
+
+  .end {
+    margin: 20px;
+  }
+  
+  .end p {
+    font-size: 12px;
+  }
+}  
