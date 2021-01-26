@@ -6,11 +6,11 @@
   top: 0;
   background-color: white;
 }
-  
+
 .header-right ul li,
 .header-center ul li {
   display: inline;
-} 
+}
 
 .bars {
   display: none;
@@ -28,7 +28,7 @@
   background-color: white;
   width: 65px;
 }
-  
+
 .header-right ul,
 .header-center ul {
   margin-top: 37px;
@@ -37,7 +37,7 @@
 .header-center ul li {
   margin: 20px;
 }
-  
+
 .header-center a {
   color: rgb(100, 100, 100);
   text-decoration: none;
@@ -45,21 +45,21 @@
   font-weight: 600;
   font-size: 14px;
 }
-  
+
 .header-right ul li {
   margin: 8px;
 }
-  
+
 .header-right a {
   color: rgb(100, 100, 100);
   font-size: 14px;
 }
-  
+
 .header-right a:hover,
 .header-center a:hover {
   color: black;
 }
-  
+
 .div-adidas-word1 {
   border-top: 2px solid rgb(236, 234, 234);
   border-bottom: 2px solid rgb(236, 234, 234);
@@ -75,7 +75,6 @@
   border-right: 1px solid rgb(182, 181, 181);
   margin: 5px;
   padding-right: 10px;
-
 }
 
 .div-adidas-word1 ul li:last-child {
@@ -96,15 +95,15 @@
   position: relative;
   animation-name: example;
   animation-duration: 0.3s;
-  animation-delay: 0.3s; 
+  animation-delay: 0.3s;
 }
 
 @keyframes example {
-  0%   {color:black; left:0px; top:-1px;}
-  25%  {color: black; left:0px; top:-2px;}
-  50%  {color:black; left:0px; top:-3px;}
-  75%  {color:black; left:0px; top:-4px;}
-  100% {color: black; left:0px; top:-5px;}
+  0% { color: black; left: 0; top: -1px; }
+  25% { color: black; left: 0; top: -2px; }
+  50% { color: black; left: 0; top: -3px; }
+  75% { color: black; left: 0; top: -4px; }
+  100% { color: black; left: 0; top: -5px; }
 }
 
 .div-adidas-word1 h1 {
@@ -255,6 +254,7 @@
 .fa-youtube:hover {
   color: #e62117;
   transform: scale(2, 2);
+
   /* font-size: 20px; */
 }
 
@@ -298,7 +298,7 @@
   .div-adidas-word1 h1,
   .div-adidas-word1 ul {
     margin: 20px 40px;
-  }   
+  }
 
   .div-adidas-word1 h1 {
     font-size: 18px;
@@ -324,7 +324,7 @@
   .header-right ul li:nth-child(2),
   .category-top ul:last-child {
     display: none;
-  } 
+  }
 
   .bars {
     display: inline;
@@ -348,6 +348,7 @@
   .div-adidas-word1 ul {
     margin: 10px 25px;
   }
+
   .categ-flex2,
   .categ-grid-col,
   .category,
@@ -374,7 +375,7 @@
   .foot-top p {
     font-size: 12px;
   }
-  
+
   .foot-center {
     display: grid;
     grid-template-columns: 1fr;
@@ -384,7 +385,7 @@
   .foot-center ul {
     display: none;
   }
-  
+
   .end p:last-child {
     display: none;
   }
@@ -392,8 +393,8 @@
   .end {
     margin: 20px;
   }
-  
+
   .end p {
     font-size: 12px;
   }
-}  
+}
