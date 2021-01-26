@@ -1,1 +1,1 @@
-# Capstone-adidas
+# Capstone-adida
